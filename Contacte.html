@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Una pagina per a poder contactar qualsevol dubte."/>
+    <link rel="stylesheet" href="projecte.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet"> 
+<title>Contacte</title>
+</head>
+
+<body>
+	<img id="logo" src="img/logo.png" alt="">
+    <nav id="menu">
+        <div id="inici">
+            <div class="text"><a href="index.html"><p>Inici</p></a></div>
+            <div class="img"><a href="index.html"><img class="img_hex" src="img/hexagon.png" alt=""></a></div>
+        </div>
+        <div id="produccio">
+            <div class="text"><a href="Produccio.html"><p>Producció</p></a></div>
+            <div class="img"><a href="Produccio.html"><img class="img_hex" src="img/hexagon.png" alt=""></a></div>
+        </div>
+        <div id="fotos">
+            <div class="text"><a href="Fotos.html"><p>Fotos</p></a></div>
+            <div class="img"><a href="Fotos.html"><img class="img_hex" src="img/hexagon.png" alt=""></a></div>
+        </div>
+        <div id="videos">
+            <div class="text"><a href="Videos.html"><p>Vídeos</p></a></div>
+            <div class="img"><a href="Videos.html"><img class="img_hex" src="img/hexagon.png" alt=""></a></div>
+        </div>
+        <div id="contacte">
+            <div class="text"><a href="Contacte.html"><p>Contacte</p></a></div>
+            <div class="img"><a href="Contacte.html"><img class="img_hex" src="img/hexagon.png" alt=""></a></div>
+        </div>
+    </nav>
+    <h1 class="titol">Contacte</h1>
+    <fieldset>
+        <legend>Contacte:</legend>
+    <form action="enviar.php" method="get">
+        <label for="fname">Nom i cognoms:</label>
+        <input type="text" id="fname" name="fname" value=""><br><br>
+        <label for="lname">E-mail de contacte:</label>
+        <input type="text" id="lname" name="lname" value="">
+    <br>
+    <br>
+        <p>Missatge</p>
+        <textarea name="message" style="width:20%; height:50%;"></textarea>
+    <br>
+    <br>
+    <label>Telèfon de contacte:</label>
+        <input type="tel" name="telefono">
+    <br>
+    <br>
+    <input type="reset" value="Borrar">
+    <input type="submit" value="Enviar">
+        </form>
+    </fieldset>
+    <footer id="con">
+        <a href="https://www.aepd.es/es/politica-de-privacidad-y-aviso-legal"><p>Avis legal</p></a>
+        <label class="check">
+				
+			<input class="hola" type="checkbox" name="genero" value="hombre">
+			
+			<span class="checkbox_show check"></span>
+			
+			<span class="custom-radio-checkbox__text">Accepta politica de privacitat</span><br>
+		
+		</label>
+    </footer>
+</body>
+
+</html>

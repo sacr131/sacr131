@@ -1,0 +1,393 @@
+body {
+        background-color: #FAEBCD;
+}
+#logo{
+        height: 175px;
+}
+#menu{
+        float:right;
+        position: relative;
+        margin-top: 40px;
+}
+a{
+        text-decoration: none;
+}
+/*Text menu*/
+.text{
+        position: relative;
+        z-index: 2;
+        width: 85px;
+}
+#inici p{
+        margin-left: 33px;
+        margin-top: 0px;
+        font-family: "Rubik";
+        color: black;
+}
+#produccio p{
+        margin-left: 10px;
+        margin-top: 0px;
+        font-family: "Rubik";
+        color: black;
+}
+#fotos p{
+        margin-left: 30px;
+        margin-top: 0px;
+        font-family: "Rubik";
+        color: black;
+}
+#videos p{
+        margin-left: 25px;
+        margin-top: 0px;
+        font-family: "Rubik";
+        color: black;
+}
+#contacte p{
+        margin-left: 15px;
+        margin-top: 0px;
+        font-family: "Rubik";
+        color: black;
+}
+/*Posicionament menu*/
+#inici{
+        margin-right: 400px;
+        margin-bottom: -10px;
+}
+#produccio{
+        margin-left: 90px;
+        margin-bottom: -118px;
+}
+#fotos{
+        margin-left: 180px;
+        margin-bottom: -10px;
+}
+#videos{
+        margin-left: 270px;
+        margin-bottom: -118px;
+}
+#contacte{
+        margin-left: 360px;
+
+}
+/*Efecte rotació menu*/
+.img_hex{
+        height: 100px;
+        margin-top: -75px;
+        transition: 0.5s;
+}
+.img_hex:hover{
+       height: 100px;
+       transform: rotate(90deg);
+
+}
+.text:hover + .img a img{
+        height: 100px;
+        transform: rotate(90deg);
+}
+/*////////////////////////////////////////////////INICI////////////////////////////////////////////*/
+/*Recuadre y nom de l'empresa*/
+
+#extraccio{
+        margin-top: 100px;
+}
+#foto_extraccio{
+        width: 100%;
+        filter: blur(3px);      
+        position: relative;
+        translate: -50%,-50%;
+        transition: 300ms;
+}
+
+#extraccio h1{
+        position: relative;
+        margin-top: -13%;
+        font-size: 5vw;
+        font-family: 'Rubik Mono One', sans-serif;
+        color: #fcca00;
+        width: 48vw;
+        margin-left: 40%;
+        transition: 300ms; 
+        
+}
+/*////////////////////////////////////Apartats///////////////////////////////////*/
+#apartats{
+        background-color:transparent;
+        margin-top: 8vw;
+        height: 600px;
+        width: 100%;
+        position: relative;
+}
+#a1{
+        background-color:  rgb(255, 204, 85);
+        height: 300px;
+        width: 18%;
+        position: absolute;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 18%;
+        border-radius: 10px;
+        transition: 500ms;
+        overflow: hidden;
+}
+#a1:hover{
+        height: 550px;
+        background-color: #ffb70058;
+}
+#a2{
+        background-color: rgb(255, 204, 85);
+        height: 300px;
+        width: 18%;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 37.5%;
+        display: inline-block;
+        border-radius: 10px;
+        transition: 500ms;
+        overflow: hidden;
+}
+#a2:hover{
+        height: 450px;
+        background-color: #ffb70058;
+}
+#a3{
+        background-color:  rgb(255, 204, 85);
+        height: 300px;
+        width: 18%;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 57%;
+        display: inline-block;
+        border-radius: 10px;
+        transition: 500ms;
+        overflow: hidden;
+}
+#a3:hover{
+        height: 400px;
+        background-color: #ffb70058;
+}
+.img_rec{
+        height: 10vw;
+        margin-left: 1.3vw;
+        margin-top: 1.3vw;
+        border-radius: 25px;
+}
+.tit_ini{
+        text-align: center;
+        font-family: 'Rubik Mono One', sans-serif;
+        color: black;
+        font-size: 2vw;
+}
+.p_in{
+        font-family: "Rubik";
+        margin: 20px;
+}
+/*////////////////////////////////////////////////PRODICCIO////////////////////////////////////////////*/
+.titol{
+        font-family: 'Rubik Mono One', sans-serif;
+        color: black;
+        font-size: 3vw;
+        margin-left: 2%;
+}
+.textos{
+        font-family: "Rubik";
+        color: black;
+        font-size: 20px;
+        margin-left: 4%;
+        margin-right: 50%;
+}
+/*Dibuixa el cuadre i la abeja*/
+.cuadre{
+        height: 250px;
+        width: 60vw;
+        border: solid #434343;
+        border-radius: 10px;
+        background-color: #f9f2e4;
+        margin-top: -40px;
+        margin-left: 30px;
+        margin-bottom: -50px;
+        z-index: 2;
+        position: relative;
+        transition: 300ms;
+        overflow-y: auto;
+}
+.cuadre p{
+        margin: auto;
+        margin-left: 20px;
+        font-size: 14px;
+        margin-top: 20px;
+        font-family: "Rubik";
+        color: black;
+}
+.cuadre:hover{
+        background-color: rgb(241, 226, 182)
+}
+
+.cuadre:hover  #masco{
+        height: 200px;
+        margin-left: 5vw;
+}
+.masco{
+        height: 100px;
+        z-index: -2;
+        position: relative;
+        margin-left: 5vw;
+        transition: 300ms;
+}
+.masco1{
+        height: 100px;
+        position: relative;
+        z-index: 3;
+        margin-left: 50vw;
+        transition: 300ms;
+}
+
+/*Posicionament cuadres i fotos*/
+#cuadre1{
+        float: left;
+        position: relative;
+}
+#img_cuadre1{
+        float: right;
+        margin-right: 8%;
+        height: 18vw;
+}
+#cuadre2{
+        float: right;
+        position: relative;
+}
+#img_cuadre2{
+        float: left;
+        margin-left: 8%;
+        height: 18vw;
+}
+#cuadre3{
+        float: left;
+        position: relative;
+}
+#img_cuadre3{
+        float: right;
+        margin-right: 8%;
+        height: 18vw;
+}
+#cuadre4{
+        float: right;
+        position: relative;
+}
+#img_cuadre4{
+        float: left;
+        margin-left: 8%;
+        height: 18vw;
+}
+/*////////////////////////////////////////////////FOTOS////////////////////////////////////////////*/
+#imagen{
+        margin-left: 15%;
+        position: relative;
+        height: 130vw;
+}
+#foto1{
+        position: absolute;
+        height: 30vw;
+        margin-top: 10%;
+        margin-left: 20%;
+}
+#foto2{
+        position: absolute;
+        height: 30vw;
+        margin-top: 25%;
+        margin-left: 45%;
+
+}
+#foto3{
+        position: absolute;
+        height: 30vw;
+        margin-top: 40%;
+        margin-left: 20%;
+}
+#foto4{
+        position: absolute;
+        height: 30vw;
+        margin-top: 55%;
+        margin-left: 45%;
+}
+/*////////////////////////////////////////////////VIDEO////////////////////////////////////////////*/
+iframe{
+        margin-left: 5%;
+}
+/*////////////////////////////////////////////////CONTACTE////////////////////////////////////////////*/
+fieldset{
+        border: solid 3px rgb(222, 171, 20);
+        background-color: rgba(252, 252, 110, 0.389);
+        position: absolute;
+        border-radius: 10px;
+        margin-left: 40%;
+        width: 400px;
+        height: auto;
+        font-family: "rubik";
+        padding: 10px;
+        
+}
+input{
+background-color: rgba(0, 0, 0, 0.185);
+border: solid transparent;
+border-radius: 20px;
+}
+textarea{
+        background-color: rgba(0, 0, 0, 0.185);
+        border: solid transparent;
+        border-radius: 15px;
+}
+
+footer{
+        border: solid 2px rgb(167, 135, 60);;
+        background-color: rgb(255, 204, 85);;
+        border-radius: 10px;
+        height: 100px;
+        width: 99%;
+        position: relative;
+        text-align: center;
+        font-family: "Rubik";
+        color: black;
+        
+}
+#con{
+        bottom: -450px;
+}
+footer a{
+        text-decoration: none;
+        color: rgb(0, 28, 65);
+}.hola,.info{
+        background-image: url(img/check.png);
+        transition: all 0.2s;
+        transform: rotate(0deg);
+    }
+    .hola:checked,.info:checked{
+        background-image: url(img/checked.png);
+        transform: rotate(360deg);
+                    margin-left: 40px;
+    }
+    .check {
+        background-image: url("img/check.png");
+        transition: all 0.2s;
+        transform: rotate(0deg);
+    }
+    
+    .check > .hola {
+        display: none;
+        margin-left: 30px;
+    }
+    
+    .check > .checkbox_show{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: .5rem;
+        background-size: cover;
+        margin-left: 30px;
+    }
+    
+    .check > .hola:checked + .check {
+        background-image: url("img/checked.png");
+        transform: rotate(360deg);
+        margin-left: 35px;
+    }
+    
